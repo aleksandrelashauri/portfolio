@@ -25,37 +25,36 @@ function Home() {
   window.addEventListener("scroll", changeHomeBlur);
 
   return (
-    <div className='home' id='home'>
+    <div className="home" id="home">
       <div className={homeBlur ? "home-inner blur" : "home-inner"}>
-        <Container className='home-cont'>
-          <div className='home-main-content'>
-            <div ref={textRef} className='home-text'>
-              <h3>Hi, I'm Levan,</h3>
+        <Container className="home-cont">
+          <div className="home-main-content">
+            <div ref={textRef} className="home-text">
+              <h3>
+                Hi,Boss,i decided to create a site beside talk . . I'm
+                Aleksandre,
+              </h3>
               <h1>
-                <span>F</span>
-                <span>r</span>
-                <span className='o'>o</span>
-                <span>n</span>
-                <span>t</span>
-                <span>-</span>
-                <span>e</span>
-                <span>n</span>
-                <span>d</span>
+                <span>The </span>
                 &nbsp;
-                <span> d</span>
+                <span>S</span>
+                <span>A</span>
+                <span className="o">L</span>
                 <span>e</span>
-                <span>v</span>
+                <span>S</span>
+                &nbsp;
+                <span>m</span>
                 <span>e</span>
-                <span>l</span>
-                <span className='o'>o</span>
-                <span>p</span>
-                <span>e</span>
+                <span>n</span>
+                <span>a</span>
+                <span>g</span>
+                <span className="o">e</span>
                 <span>r</span>
               </h1>
               <p></p>
 
-              <div className='home-btn'>
-                <a href={"#contact"} className='hireme-btn'>
+              <div className="home-btn">
+                <a href={"#contact"} className="hireme-btn">
                   {" "}
                   Hire Me
                 </a>
@@ -64,10 +63,10 @@ function Home() {
           </div>
         </Container>
       </div>
-      <div ref={greenDivRef} className='green-div'></div>
-      <div ref={blackDivRef} className='black-div'>
+      <div ref={greenDivRef} className="green-div"></div>
+      <div ref={blackDivRef} className="black-div">
         {" "}
-        <h1>Levan iakobidze</h1>
+        <h1>Aleksandre Lashauri</h1>
       </div>
     </div>
   );

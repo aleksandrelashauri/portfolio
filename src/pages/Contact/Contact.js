@@ -12,85 +12,32 @@ function Contact() {
   const [hover, setHover] = useState(false);
 
   return (
-    <div className='contact' id='contact'>
-      <Container className='contact-cont'>
-        <div className='contact-title'>
+    <div className="contact" id="contact">
+      <Container className="contact-cont">
+        <div className="contact-title">
           <h1>
-            Contact <tag className='contact-title-span'>Me</tag>
+            i'm Sure{" "}
+            <tag className="contact-title-span">
+              {" "}
+              i Can give everything that the company needs
+            </tag>
           </h1>
         </div>
-        <div className='contact-wrapper'>
-          <div className='left-side' data-aos='fade-right'>
-            <ContactForm />
-          </div>
-          <div className='right-side' data-aos='fade-up'>
-            <div className='sircles-cont'>
-              <div
-                className={hover ? "sircle1 sircle1-active" : "sircle1"}
-                onMouseOver={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}>
-                <div className='github-icon1'>
-                  <AiFillGithub className='github' />
-                </div>
-                <div className='github-icon2'>
-                  <AiFillGithub className='github' />
-                </div>
-                <div className='github-icon3'>
-                  <AiFillGithub className='github' />
-                </div>
-                <div className='github-icon4'>
-                  <AiFillGithub className='github' />
-                </div>
-                <div className='fb-icon1'>
-                  <BsFacebook className='fb' />
-                </div>
-                <div className='fb-icon2'>
-                  <BsFacebook className='fb' />
-                </div>
-                <div className='fb-icon3'>
-                  <BsFacebook className='fb' />
-                </div>
-                <div className='fb-icon4'>
-                  <BsFacebook className='fb' />
-                </div>
-                <div className='sircle2'>
-                  <div className='sircle3'>
-                    <div className='linkedin-icon1'>
-                      <AiFillLinkedin className='linkedin' />
-                    </div>
-                    <div className='linkedin-icon2'>
-                      <AiFillLinkedin className='linkedin' />
-                    </div>
-
-                    <div className='sircle4'></div>
-                  </div>
-                </div>
-              </div>
-              <div className='socials-title'>
-                <h2>Socials</h2>
-
-                <div className={"socials"}>
-                  <a
-                    href='https://github.com/levaniakobidze'
-                    className='githib-link'>
-                    <AiFillGithub className='soc-icon github' />{" "}
-                  </a>
-                  <a href='https://www.linkedin.com/in/levan-iakobidze-b0b60923b/'>
-                    <AiFillLinkedin className='soc-icon linkdin' />{" "}
-                  </a>
-                </div>
-                <div className='email-phone-cont'>
-                  <div className='phone'>
-                    <PhoneIcon className='phone-icon' />
-                    <p>(+995) 598-13-23-16</p>
-                  </div>
-                  <div className='email'>
-                    <EmailIcon className='email-icon' />
-                    <p className='email-p'>levaniakobidze25@gmail.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div style={{ color: "white", fontSize: 23 }}>
+          I am constantly contemplating and making decisions that will benefit
+          the company, whether it involves analyzing specifications, engaging in
+          tenders, or Transferring the car to another buyer in Bus motors.
+          <div>
+            {" "}
+            I understand that there is still much for me to learn, as continuous
+            learning is essential for anyone in their professional journey.
+            Being a part of this team brings me a sense of fulfillment, but in
+            order to continue my contributions, I believe it is necessary for my
+            salary to increase by at least 1000 GEL, plus bonuses (totaling 1700
+            GEL, plus bonuses ), as the current salary falls short before the
+            end of each month. I am committed to carrying on with my existing
+            responsibilities while also pursuing new opportunities with other
+            companies, as my ultimate goal is to drive the company's success.
           </div>
         </div>
       </Container>

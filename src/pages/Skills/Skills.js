@@ -13,60 +13,60 @@ import { SiReactrouter } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 function Skills() {
   return (
-    <div className='skills-outer'>
-      <div className='skills' id='skills'>
-        <Container className='skills-cont'>
-          <div className='skills-content-wrapper'>
-            <div className='skills-header'>
-              <h1>Skills</h1>
+    <div className="skills-outer">
+      <div className="skills" id="skills">
+        <Container className="skills-cont">
+          <div className="skills-content-wrapper">
+            <div className="skills-header">
+              <h1> skill & knowledge i have gained </h1>
             </div>
 
-            <div className='skills-list-wrapper'>
-              <div className='skills-card' data-aos='slide-down'>
-                <DiHtml5 className='skills-icon html' />
-                <div className='skill-title'>Html</div>
+            <div className="skills-list-wrapper">
+              <div className="skills-card" data-aos="slide-down">
+                <DiHtml5 className="skills-icon html" />
+                <div className="skill-title">Communication</div>
               </div>
-              <div className='skills-card' data-aos='fade-up'>
-                <DiCss3 className='skills-icon css' />
-                <div className='skill-title'>Css</div>
+              <div className="skills-card" data-aos="fade-up">
+                <DiCss3 className="skills-icon css" />
+                <div className="skill-title">Sales Strategy</div>
               </div>
-              <div className='skills-card' data-aos='slide-down'>
-                <DiSass className='skills-icon sass' />
-                <div className='skill-title'>Sass</div>
-              </div>
-
-              <div className='skills-card' data-aos='slide-up'>
-                <SiJavascript className='skills-icon js' />
-                <div className='skill-title'>Javascript</div>
-              </div>
-              <div className='skills-card' data-aos='slide-down'>
-                <DiReact className='skills-icon react' />
-                <div className='skill-title'>React</div>
+              <div className="skills-card" data-aos="slide-down">
+                <DiSass className="skills-icon sass" />
+                <div className="skill-title">Relationship Building:</div>
               </div>
 
-              <div className='skills-card' data-aos='slide-up'>
-                <SiReactrouter className='skills-icon router' />
-                <div className='skill-title router-title'>React-router</div>
+              <div className="skills-card" data-aos="slide-up">
+                <SiJavascript className="skills-icon js" />
+                <div className="skill-title">Analytical Skills</div>
+              </div>
+              <div className="skills-card" data-aos="slide-down">
+                <DiReact className="skills-icon react" />
+                <div className="skill-title">Problem Solving</div>
               </div>
 
-              <div className='skills-card' data-aos='slide-up'>
-                <SiRedux className='skills-icon redux' />
-                <div className='skill-title'>Redux</div>
+              <div className="skills-card" data-aos="slide-up">
+                <SiReactrouter className="skills-icon router" />
+                <div className="skill-title router-title">Adaptability</div>
               </div>
 
-              <div className='skills-card' data-aos='slide-up'>
-                <DiGit className='skills-icon git' />
-                <div className='skill-title'>Git</div>
+              <div className="skills-card" data-aos="slide-up">
+                <SiRedux className="skills-icon redux" />
+                <div className="skill-title">Time Management</div>
               </div>
 
-              <div className='skills-card' data-aos='slide-up'>
-                <CgFigma className='skills-icon figma' />
-                <div className='skill-title'>Figma</div>
+              <div className="skills-card" data-aos="slide-up">
+                <DiGit className="skills-icon git" />
+                <div className="skill-title">Product Knowledge</div>
               </div>
 
-              <div className='skills-card' data-aos='slide-up'>
-                <SiAdobexd className='skills-icon xd' />
-                <div className='skill-title '>Adobe Xd</div>
+              <div className="skills-card" data-aos="slide-up">
+                <CgFigma className="skills-icon figma" />
+                <div className="skill-title">Specifications</div>
+              </div>
+
+              <div className="skills-card" data-aos="slide-up">
+                <SiAdobexd className="skills-icon xd" />
+                <div className="skill-title ">Tenders</div>
               </div>
             </div>
           </div>
